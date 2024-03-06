@@ -1,0 +1,33 @@
+$primary-color: #330072;
+$secondary-color: #1f0d3f;
+$border-color: #bb65ff;
+$text-color: white;
+$button-active-background: #f6f7fc;
+$button-active-text-color: #330072;
+$input-background: #6429cd;
+$reveal-button: $input-background;
+$header-color: $input-background;
+$inner-shadow: $input-background;
+$card-inactive: transparent;
+$card-hover: #9d9da1;
+$card-pressed: #e4a4ff;
+$avatar-color: #bdbdff;
+
+main {
+  height: 100vh; /* 100% de la altura de la ventana gráfica */
+  margin: 0;
+  background: radial-gradient(ellipse at center, #330072, #1f0d3f);
+}
+
+.container {
+  position: fixed;
+  margin: 15% 50%;
+  border: $border-color 2px solid;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  color: white;
+  text-decoration: underline;
+}
